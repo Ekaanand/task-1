@@ -1,0 +1,79 @@
+.Todo-list-container{
+  margin: 5rem;
+  display: flex;
+  display: ;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50rem;
+  border: 1px solid black;
+  min-height: 70rem;
+  background-image: linear-gradient(to right bottom, #81122d, #841647, #7f2462, #70347b, #57448f, #594793, #5a4b96, #5c4e9a, #7b478f, #934080, #a33b6e, #ac3c5b);
+  border-radius: 1rem;
+}
+
+.todo-form{
+display: flex;
+width: 100%;
+margin-top: 3rem;
+font-size: 2rem;
+gap: 2rem;
+
+}
+
+.todo-form input{
+  border: 1px solid black;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+
+
+.todo-form button{
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: rgba(252, 251, 251, 0.751);
+  padding: 1rem ;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.todo-form button:hover{
+  background-color: black;
+  color: rgb(246, 241, 241);
+  font-weight: 600;
+}
+
+.task-div{
+  background-color: rgba(252, 251, 251, 0.751);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  box-shadow: 0.5rem 0.5rem 1rem hsla(0, 76%, 3%, 0.882);
+  border-radius: 1rem;
+}
+
+.todo-text{
+  font-size: 2.5rem;
+}
+
+.icons{
+  display: flex;
+  gap: 3rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.complete{
+  text-decoration: line-through;
+  opacity: 0.5;
+  background-color: rgb(235, 167, 22);
+}
+
+.hide{
+  display: none;
+}
